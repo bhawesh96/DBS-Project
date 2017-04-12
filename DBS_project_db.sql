@@ -1,3 +1,5 @@
+
+
 use dbs_project;
 
 CREATE TABLE PoliceDetails (
@@ -68,15 +70,15 @@ delimiter ;
 
 alter table policedetails modify complaintsonhand int not null default 0;
 
-alter table policedetails modify phone integer;
+alter table policedetails modify phone varchar(11);
 
 insert into policedetails values('Mani1','manipal1','Rowdy Rathore','end point road','1977-07-14',9008318346,'Insepector','Manipal',0);
-    
+
 select * from policedetails;
 
 delete from policedetails where policeID like '%a%';
 
-insert into policedetails values('Mani2','manipal2','Sunny Deol','Eashwar nagar','1987-01-12',8009458346,'Insepector','Manipal',0);
-insert into policedetails values('Mang1','mangalore1','Abhay shetty','beside forum mall','1978-02-04',9008845646,'Insepector','Managlore',0);
-insert into policedetails values('Mang2','mangalore2','Smaaran Shetty','opp. ford showroom','1981-06-03',9000000111,'Sub-Insepector','Managlore',0);
-insert into policedetails values('udup1','udupi1','Ravi Shankar','kudanranagar','1983-09-21',9007698541,'Insepector','Udupi',0);
+insert into policedetails values('Mani2','manipal2','Sunny Deol','Eashwar nagar','1987-01-12','8009458346','Insepector','Manipal',0);
+insert into policedetails values('Mang1','mangalore1','Abhay shetty','beside forum mall','1978-02-04','9008845646','Insepector','Managlore',0);
+insert into policedetails values('Mang2','mangalore2','Smaaran Shetty','opp. ford showroom','1981-06-03','9000000111','Sub-Insepector','Managlore',0);
+insert into policedetails values('udup1','udupi1','Ravi Shankar','kudanranagar','1983-09-21','9007698541','Insepector','Udupi',0);
