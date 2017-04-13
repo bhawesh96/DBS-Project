@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbs_projectDataSet" targetNamespace="http://tempuri.org/dbs_projectDataSet.xsd" xmlns:mstns="http://tempuri.org/dbs_projectDataSet.xsd" xmlns="http://tempuri.org/dbs_projectDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbs_projectConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbs_projectConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.crimemanagement.Properties.Settings.GlobalReference.Default.dbs_projectConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="accusedTableAdapter" GeneratorDataComponentClassName="accusedTableAdapter" Name="accused" UserDataComponentName="accusedTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbs_projectConnectionString (Settings)" DbObjectName="dbs_project.accused" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `aadhaarno`, `Date`, `Place`, `Description`, `ActionTaken` FROM `accused`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbs_projectDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dbs_projectDataSet" msprop:Generator_UserDSName="dbs_projectDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="accused" msprop:Generator_TableClassName="accusedDataTable" msprop:Generator_TableVarName="tableaccused" msprop:Generator_TablePropName="accused" msprop:Generator_RowDeletingName="accusedRowDeleting" msprop:Generator_RowChangingName="accusedRowChanging" msprop:Generator_RowEvHandlerName="accusedRowChangeEventHandler" msprop:Generator_RowDeletedName="accusedRowDeleted" msprop:Generator_UserTableName="accused" msprop:Generator_RowChangedName="accusedRowChanged" msprop:Generator_RowEvArgName="accusedRowChangeEvent" msprop:Generator_RowClassName="accusedRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
