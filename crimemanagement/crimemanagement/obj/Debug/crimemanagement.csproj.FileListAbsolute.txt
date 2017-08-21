@@ -1,0 +1,17 @@
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\bin\Debug\crimemanagement.exe.config
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\bin\Debug\crimemanagement.exe
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\bin\Debug\crimemanagement.pdb
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\bin\Debug\MySql.Data.dll
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.csprojResolveAssemblyReference.cache
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.Properties.Resources.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.csproj.GenerateResource.Cache
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.exe
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.pdb
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.home.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.police1.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.complaints.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.PoliceDetails.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.user1.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.LodgeComplaint.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.userDetails.resources
+e:\users\hp\documents\visual studio 2015\Projects\crimemanagement\crimemanagement\obj\Debug\crimemanagement.checkCharges.resources
